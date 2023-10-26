@@ -1,6 +1,10 @@
 .navbar {
-  color: firebrick;
-  background-color: seagreen
+  color: salmon;
+  background-color: navajowhite;
+  text-align: right;
+  padding: 15px;
+
+  
   
 }
 .navbar ul {
@@ -18,7 +22,14 @@ header {
   text-decoration: underline;
 }
 
-.navbar a:active {
-  background-color: dimgray;
-  color: black;
+.navbar a {
+  background-color:lemonchiffon;
+  color:lightsalmon
+  transition: color 0.3s ;
+}
+
+body {
+  background-color: lemonchiffon;
+  color: salmon;
+
 }
