@@ -8,6 +8,7 @@ export async function seed(knex) {
       trait_id: 1, // Link to a traits table with ID 1
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99901,
     },
     {
       id: 1002,
@@ -17,6 +18,7 @@ export async function seed(knex) {
       trait_id: 2, // Link to a traits table with ID 2
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99901,
     },
     {
       id: 1003,
@@ -26,6 +28,7 @@ export async function seed(knex) {
       trait_id: 3, // Link to a traits table with ID 3
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99901,
     },
     {
       id: 1004,
@@ -35,6 +38,7 @@ export async function seed(knex) {
       trait_id: 4, // Link to a traits table with ID 4
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99902,
     },
     {
       id: 1005,
@@ -44,6 +48,7 @@ export async function seed(knex) {
       trait_id: 5, // Link to a traits table with ID 5
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99903,
     },
     {
       id: 1006,
@@ -53,6 +58,7 @@ export async function seed(knex) {
       trait_id: 6, // Link to a traits table with ID 6
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99903,
     },
     {
       id: 1007,
@@ -62,6 +68,7 @@ export async function seed(knex) {
       trait_id: 7, // Link to a traits table with ID 7
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99903,
     },
     {
       id: 1008,
@@ -71,6 +78,7 @@ export async function seed(knex) {
       trait_id: 8, // Link to a traits table with ID 8
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99904,
     },
     {
       id: 1009,
@@ -80,6 +88,7 @@ export async function seed(knex) {
       trait_id: 9, // Link to a traits table with ID 9
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99904,
     },
     {
       id: 1010,
@@ -89,6 +98,7 @@ export async function seed(knex) {
       trait_id: 10, // Link to a traits table with ID 10
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99905,
     },
     {
       id: 1011,
@@ -98,6 +108,7 @@ export async function seed(knex) {
       trait_id: 11, // Link to a traits table with ID 11
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99906,
     },
     {
       id: 1012,
@@ -107,6 +118,7 @@ export async function seed(knex) {
       trait_id: 12, // Link to a traits table with ID 12
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99907,
     },
     {
       id: 1013,
@@ -116,6 +128,7 @@ export async function seed(knex) {
       trait_id: 13, // Link to a traits table with ID 13
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99907,
     },
     {
       id: 1014,
@@ -125,6 +138,7 @@ export async function seed(knex) {
       trait_id: 14, // Link to a traits table with ID 14
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99907,
     },
     {
       id: 1015,
@@ -134,6 +148,7 @@ export async function seed(knex) {
       trait_id: 15, // Link to a traits table with ID 15
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99908,
     },
     {
       id: 1016,
@@ -143,6 +158,7 @@ export async function seed(knex) {
       trait_id: 16, // Link to a traits table with ID 16
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99908,
     },
     {
       id: 1017,
@@ -152,6 +168,7 @@ export async function seed(knex) {
       trait_id: 17, // Link to a traits table with ID 17
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99909,
     },
     {
       id: 1018,
@@ -161,6 +178,7 @@ export async function seed(knex) {
       trait_id: 18, // Link to a traits table with ID 18
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99910,
     },
     {
       id: 1019,
@@ -170,6 +188,7 @@ export async function seed(knex) {
       trait_id: 19, // Link to a traits table with ID 19
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99910,
     },
     {
       id: 1020,
@@ -179,6 +198,7 @@ export async function seed(knex) {
       trait_id: 20, // Link to a traits table with ID 20
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99910,
     },
     {
       id: 1021,
@@ -188,6 +208,7 @@ export async function seed(knex) {
       trait_id: 21, // Link to a traits table with ID 21
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99910,
     },
     {
       id: 1022,
@@ -197,6 +218,7 @@ export async function seed(knex) {
       trait_id: 22, // Link to a traits table with ID 22
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99911,
     },
     {
       id: 1023,
@@ -206,6 +228,7 @@ export async function seed(knex) {
       trait_id: 23, // Link to a traits table with ID 23
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99912,
     },
     {
       id: 1024,
@@ -215,6 +238,7 @@ export async function seed(knex) {
       trait_id: 24, // Link to a traits table with ID 24
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99913,
     },
     {
       id: 1025,
@@ -224,6 +248,7 @@ export async function seed(knex) {
       trait_id: 25, // Link to a traits table with ID 25
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99914,
     },
     {
       id: 1026,
@@ -233,6 +258,7 @@ export async function seed(knex) {
       trait_id: 26, // Link to a traits table with ID 26
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99915,
     },
     {
       id: 1027,
@@ -242,6 +268,7 @@ export async function seed(knex) {
       trait_id: 27, // Link to a traits table with ID 27
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99916,
     },
     {
       id: 1028,
@@ -251,6 +278,7 @@ export async function seed(knex) {
       trait_id: 28, // Link to a traits table with ID 28
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99917,
     },
     {
       id: 1029,
@@ -260,6 +288,7 @@ export async function seed(knex) {
       trait_id: 29, // Link to a traits table with ID 29
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99918,
     },
     {
       id: 1030,
@@ -269,6 +298,7 @@ export async function seed(knex) {
       trait_id: 30, // Link to a traits table with ID 30
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99919,
     },
     {
       id: 1031,
@@ -278,6 +308,7 @@ export async function seed(knex) {
       trait_id: 31, // Link to a traits table with ID 31
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99920,
     },
     {
       id: 1032,
@@ -287,6 +318,7 @@ export async function seed(knex) {
       trait_id: 32, // Link to a traits table with ID 32
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99915,
     },
     {
       id: 1033,
@@ -296,6 +328,7 @@ export async function seed(knex) {
       trait_id: 33, // Link to a traits table with ID 33
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99913,
     },
     {
       id: 1034,
@@ -305,6 +338,7 @@ export async function seed(knex) {
       trait_id: 34, // Link to a traits table with ID 34
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99917,
     },
     {
       id: 1035,
@@ -314,6 +348,7 @@ export async function seed(knex) {
       trait_id: 35, // Link to a traits table with ID 35
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99917,
     },
     {
       id: 1036,
@@ -323,6 +358,7 @@ export async function seed(knex) {
       trait_id: 36, // Link to a traits table with ID 36
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99920,
     },
     {
       id: 1037,
@@ -332,6 +368,7 @@ export async function seed(knex) {
       trait_id: 37, // Link to a traits table with ID 37
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99919,
     },
     {
       id: 1038,
@@ -341,6 +378,7 @@ export async function seed(knex) {
       trait_id: 38, // Link to a traits table with ID 38
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99919,
     },
     {
       id: 1039,
@@ -350,6 +388,7 @@ export async function seed(knex) {
       trait_id: 39, // Link to a traits table with ID 39
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99913,
     },
     {
       id: 1040,
@@ -359,6 +398,7 @@ export async function seed(knex) {
       trait_id: 40, // Link to a traits table with ID 40
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
+      owner_id: 99914,
     },
   ])
 }
