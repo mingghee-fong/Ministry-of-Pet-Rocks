@@ -1,6 +1,14 @@
 .navbar {
-  list-style-type: none;
+  color: firebrick;
+  background-color: seagreen
+  
+}
+.navbar ul {
+    list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: seagreen
+}
+
+header {
+  background-color: aquamarine;
 }
