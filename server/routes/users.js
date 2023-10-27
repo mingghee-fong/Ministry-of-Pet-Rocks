@@ -14,9 +14,11 @@ router.get('/', async (req, res) => {
 })
 
 router.get('/owners', async (req, res) => {
-  const owners = await db.getOwners()
-  res.render('owners', owners)
+  const obj = { owners: await db.getOwners()}
+  console.log(obj)
+  res.render('owners', obj)
 })
+
 
 router.get('/owners/:id', async (req, res) => {
   const id = req.params.id
@@ -24,4 +26,5 @@ router.get('/owners/:id', async (req, res) => {
   console.log(owner)
   res.render('ownerid', owner)
 })
+
 export default router
