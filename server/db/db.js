@@ -9,6 +9,6 @@ export async function getOwners() {
   return connection('owners').select()
 }
 
-// export async function getUser(id) {
-//   return connection('users').where('id', id).first()
-// }
+export async function getSingleOwner(id) {
+  return connection('owners').where('owners.id', id).first()
+}

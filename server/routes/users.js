@@ -18,7 +18,10 @@ router.get('/owners', async (req, res) => {
   res.render('owners', owners)
 })
 
-router.get('/:id', async (req, res) => {
-  
+router.get('/owners/:id', async (req, res) => {
+  const id = req.params.id
+  const owner = await db.getSingleOwner(id)
+  console.log(owner)
+  res.render('ownerid', owner)
 })
 export default router
