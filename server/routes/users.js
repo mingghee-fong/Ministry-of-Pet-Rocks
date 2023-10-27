@@ -21,10 +21,19 @@ router.get('/owners', async (req, res) => {
 
 router.get('/owners/:id', async (req, res) => {
   const id = req.params.id
-  // const owner = await db.getSingleOwner(id)
-  const owner = { owners: await db.getSingleOwner(id) }
-  console.log(owner)
-  res.render('ownerid', owner)
+
+  const obj = { owner: await db.getSingleOwner(id) }
+  console.log(obj)
+  let rockId = ''
+  for (let item of obj.owner) {
+    rockId = parseInt(item.rockTraitId)
+  }
+
+
+  const ownersRock = { rocks: await db.getOwnersRocks(rockId, id) }
+  console.log(ownersRock)
+  res.render('ownerid', obj)
+
 })
 
 export default router

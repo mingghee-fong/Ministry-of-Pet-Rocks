@@ -10,36 +10,31 @@ export async function getOwners() {
 }
 
 export async function getSingleOwner(id) {
-  return (
-    connection('owners')
-      .where('owners.id', id)
-      // .join('rocks', 'owners.id', 'rocks.owner_id')
-      .select(
-        'owners.name as ownerName',
-        'owners.email',
-        'owners.address',
-        'owners.id as ownerId'
-      )
-  )
+  return connection('owners')
+    .where('owners.id', id)
+    .join('rocks', 'owners.id', 'rocks.owner_id')
+    .select(
+      'owners.name as ownerName',
+      'owners.email',
+      'owners.address',
+      'owners.id as ownerId',
+      // 'rocks.name as rockName',
+      // 'rocks.id as rockId',
+      // 'rocks.rock_type as rockType',
+      'rocks.trait_id as rockTraitId',
+      // 'rocks.rock_img as rockImg',
+      // 'rocks.age as rockAge',
+      // 'rocks.owner_id as rockOwnerId'
+    )
   // .first()
 }
 
-// export async function getSingleOwner(id) {
-//   return connection('owners')
-//     .where('owners.id', id)
-//     .join('rocks', 'owners.id', 'rocks.owner_id')
-//     .select(
-//       'owners.name as ownerName',
-//       'owners.email',
-//       'owners.address',
-//       'owners.id as ownerId',
-//       'rocks.name as rockName',
-//       'rocks.id as rockId',
-//       'rocks.rock_type as rockType',
-//       'rocks.trait_id as rockTraitId',
-//       'rocks.rock_img as rockImg',
-//       'rocks.age as rockAge',
-//       'rocks.owner_id as rockOwnerId'
-//     )
-//   // .first()
-// }
+export async function getOwnersRocks(id, ownerId) {
+  // console.log(id)
+  return connection('rocks')
+    .where('rocks.trait_id', id)
+    .andWhere('rocks.owner_id', ownerId)
+    .join('rockTraits', 'rocks.trait_id', 'rockTraits.id')
+    .select()
+  // .first()
+}
