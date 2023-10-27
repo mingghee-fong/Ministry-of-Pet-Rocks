@@ -29,7 +29,6 @@ router.get('/owners/:id', async (req, res) => {
     rockId = parseInt(item.rockTraitId)
   }
 
-
   const ownersRock = { rocks: await db.getOwnersRocks(rockId, id) }
   console.log(ownersRock)
   res.render('ownerid', obj)

@@ -15,7 +15,7 @@ export async function seed(knex) {
       name: 'Pebbles',
       rock_type: 'Igneous',
       age: 150,
-      trait_id: 1, // Link to a traits table with ID 2
+      trait_id: 3, // Link to a traits table with ID 2
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99901,
@@ -25,7 +25,7 @@ export async function seed(knex) {
       name: 'Stoney',
       rock_type: 'Metamorphic',
       age: 200,
-      trait_id: 1, // Link to a traits table with ID 3
+      trait_id: 5, // Link to a traits table with ID 3
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99901,
@@ -45,7 +45,7 @@ export async function seed(knex) {
       name: 'Rockelle',
       rock_type: 'Sedimentary',
       age: 500,
-      trait_id: 1, // Link to a traits table with ID 5
+      trait_id: 2, // Link to a traits table with ID 5
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99903,
@@ -55,7 +55,7 @@ export async function seed(knex) {
       name: 'Rockford',
       rock_type: 'Igneous',
       age: 120,
-      trait_id: 1, // Link to a traits table with ID 6
+      trait_id: 4, // Link to a traits table with ID 6
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99903,
@@ -85,7 +85,7 @@ export async function seed(knex) {
       name: 'Pebbleton',
       rock_type: 'Igneous',
       age: 80,
-      trait_id: 2, // Link to a traits table with ID 9
+      trait_id: 4, // Link to a traits table with ID 9
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99904,
@@ -105,7 +105,7 @@ export async function seed(knex) {
       name: 'Rocky Balboa',
       rock_type: 'Igneous',
       age: 110,
-      trait_id: 2, // Link to a traits table with ID 11
+      trait_id: 1, // Link to a traits table with ID 11
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99906,
@@ -115,7 +115,7 @@ export async function seed(knex) {
       name: 'Stony Brook',
       rock_type: 'Sedimentary',
       age: 420,
-      trait_id: 2, // Link to a traits table with ID 12
+      trait_id: 5, // Link to a traits table with ID 12
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99907,
@@ -135,7 +135,7 @@ export async function seed(knex) {
       name: 'Pebbles Flintstone',
       rock_type: 'Igneous',
       age: 160,
-      trait_id: 2, // Link to a traits table with ID 14
+      trait_id: 3, // Link to a traits table with ID 14
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99907,
@@ -145,7 +145,7 @@ export async function seed(knex) {
       name: 'Rocky Top',
       rock_type: 'Sedimentary',
       age: 300,
-      trait_id: 3, // Link to a traits table with ID 15
+      trait_id: 1, // Link to a traits table with ID 15
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99908,
@@ -155,7 +155,7 @@ export async function seed(knex) {
       name: 'Rockhopper',
       rock_type: 'Igneous',
       age: 70,
-      trait_id: 3, // Link to a traits table with ID 16
+      trait_id: 2, // Link to a traits table with ID 16
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99908,
@@ -165,7 +165,7 @@ export async function seed(knex) {
       name: 'Stonewall',
       rock_type: 'Metamorphic',
       age: 180,
-      trait_id: 3, // Link to a traits table with ID 17
+      trait_id: 4, // Link to a traits table with ID 17
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99909,
@@ -175,7 +175,7 @@ export async function seed(knex) {
       name: 'Rocky Mountain',
       rock_type: 'Sedimentary',
       age: 400,
-      trait_id: 3, // Link to a traits table with ID 18
+      trait_id: 5, // Link to a traits table with ID 18
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99910,
@@ -185,7 +185,7 @@ export async function seed(knex) {
       name: 'Pebble Beach',
       rock_type: 'Igneous',
       age: 130,
-      trait_id: 3, // Link to a traits table with ID 19
+      trait_id: 5, // Link to a traits table with ID 19
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99910,
@@ -205,7 +205,7 @@ export async function seed(knex) {
       name: 'Rocky Waters',
       rock_type: 'Igneous',
       age: 70,
-      trait_id: 3, // Link to a traits table with ID 21
+      trait_id: 1, // Link to a traits table with ID 21
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99910,
@@ -215,7 +215,7 @@ export async function seed(knex) {
       name: 'Stony Brooklyn',
       rock_type: 'Sedimentary',
       age: 380,
-      trait_id: 3, // Link to a traits table with ID 22
+      trait_id: 2, // Link to a traits table with ID 22
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99911,
@@ -225,7 +225,7 @@ export async function seed(knex) {
       name: 'Pebble Pile',
       rock_type: 'Metamorphic',
       age: 210,
-      trait_id: 3, // Link to a traits table with ID 23
+      trait_id: 1, // Link to a traits table with ID 23
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99912,
@@ -235,7 +235,7 @@ export async function seed(knex) {
       name: 'Rocky Desert',
       rock_type: 'Igneous',
       age: 120,
-      trait_id: 4, // Link to a traits table with ID 24
+      trait_id: 3, // Link to a traits table with ID 24
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99913,
@@ -245,7 +245,7 @@ export async function seed(knex) {
       name: 'Pebbles Shores',
       rock_type: 'Sedimentary',
       age: 390,
-      trait_id: 4, // Link to a traits table with ID 25
+      trait_id: 2, // Link to a traits table with ID 25
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99914,
@@ -255,7 +255,7 @@ export async function seed(knex) {
       name: 'Rocky Cliffs',
       rock_type: 'Metamorphic',
       age: 220,
-      trait_id: 4, // Link to a traits table with ID 26
+      trait_id: 1, // Link to a traits table with ID 26
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99915,
@@ -265,7 +265,7 @@ export async function seed(knex) {
       name: 'Petrified Pete',
       rock_type: 'Igneous',
       age: 140,
-      trait_id: 4, // Link to a traits table with ID 27
+      trait_id: 5, // Link to a traits table with ID 27
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99916,
@@ -275,7 +275,7 @@ export async function seed(knex) {
       name: 'Rocky Hill',
       rock_type: 'Sedimentary',
       age: 410,
-      trait_id: 4, // Link to a traits table with ID 28
+      trait_id: 2, // Link to a traits table with ID 28
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99917,
@@ -285,7 +285,7 @@ export async function seed(knex) {
       name: 'Pebble Brook',
       rock_type: 'Metamorphic',
       age: 230,
-      trait_id: 4, // Link to a traits table with ID 29
+      trait_id: 3, // Link to a traits table with ID 29
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99918,
@@ -295,7 +295,7 @@ export async function seed(knex) {
       name: 'Rocky Valley',
       rock_type: 'Igneous',
       age: 60,
-      trait_id: 4, // Link to a traits table with ID 30
+      trait_id: 5, // Link to a traits table with ID 30
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99919,
@@ -305,7 +305,7 @@ export async function seed(knex) {
       name: 'Stonehenge',
       rock_type: 'Sedimentary',
       age: 480,
-      trait_id: 4, // Link to a traits table with ID 31
+      trait_id: 1, // Link to a traits table with ID 31
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99920,
@@ -315,7 +315,7 @@ export async function seed(knex) {
       name: 'Pebble Path',
       rock_type: 'Metamorphic',
       age: 260,
-      trait_id: 4, // Link to a traits table with ID 32
+      trait_id: 5, // Link to a traits table with ID 32
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99915,
@@ -325,7 +325,7 @@ export async function seed(knex) {
       name: 'Rocky Ridge',
       rock_type: 'Igneous',
       age: 110,
-      trait_id: 5, // Link to a traits table with ID 33
+      trait_id: 1, // Link to a traits table with ID 33
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99913,
@@ -335,7 +335,7 @@ export async function seed(knex) {
       name: 'Stonewashed',
       rock_type: 'Sedimentary',
       age: 420,
-      trait_id: 5, // Link to a traits table with ID 34
+      trait_id: 2, // Link to a traits table with ID 34
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99917,
@@ -345,7 +345,7 @@ export async function seed(knex) {
       name: 'Pebble Creek',
       rock_type: 'Metamorphic',
       age: 200,
-      trait_id: 5, // Link to a traits table with ID 35
+      trait_id: 3, // Link to a traits table with ID 35
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99917,
@@ -355,7 +355,7 @@ export async function seed(knex) {
       name: 'Rocky River',
       rock_type: 'Igneous',
       age: 80,
-      trait_id: 5, // Link to a traits table with ID 36
+      trait_id: 2, // Link to a traits table with ID 36
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99920,
@@ -365,7 +365,7 @@ export async function seed(knex) {
       name: 'Stoneface',
       rock_type: 'Sedimentary',
       age: 350,
-      trait_id: 5, // Link to a traits table with ID 37
+      trait_id: 4, // Link to a traits table with ID 37
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99919,
@@ -375,7 +375,7 @@ export async function seed(knex) {
       name: 'Pebble Stone',
       rock_type: 'Metamorphic',
       age: 180,
-      trait_id: 5, // Link to a traits table with ID 38
+      trait_id: 1, // Link to a traits table with ID 38
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99919,
@@ -385,7 +385,7 @@ export async function seed(knex) {
       name: 'Rockwell',
       rock_type: 'Igneous',
       age: 130,
-      trait_id: 5, // Link to a traits table with ID 39
+      trait_id: 2, // Link to a traits table with ID 39
       rock_img:
         'https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280,c_limit/The-Rock-0617-GQ-CV03-01.jpg',
       owner_id: 99913,
