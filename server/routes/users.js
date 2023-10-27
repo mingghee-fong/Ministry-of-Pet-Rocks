@@ -31,6 +31,7 @@ router.get('/owners/:id', async (req, res) => {
 
   const rockOwner = obj.owner[0]
 
+
   const ownersRock = { rocks: await db.getOwnersRocks(rockId, id) }
   // console.log(ownersRock)
   res.render('ownerid', rockOwner)
