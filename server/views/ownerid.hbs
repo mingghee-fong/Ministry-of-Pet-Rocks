@@ -1,10 +1,11 @@
 
 <h1>Owner Details</h1>
-<img src="" alt="">
+<img src="https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280"  width="200" height="relative" />
 <ul>
   {{#each owners}}
-  <li><strong>Owner ID:</strong>{{this.id}}</li>
-  <li><strong>Owner Name:</strong> {{this.name}}</li>
+  {{!-- <li><strong>Rock Image:</strong> {{this.img}}</li> --}}
+  <li><strong>Owner ID:</strong> {{this.ownerId}}</li>
+  <li><strong>Owner Name:</strong> {{this.ownerName}}</li>
   <li><strong>Onwer Email:</strong> {{this.email}}</li>
   <li><strong>Owner Address:</strong> {{this.address}}</li>
   {{/each}}
