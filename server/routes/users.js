@@ -14,11 +14,10 @@ router.get('/', async (req, res) => {
 })
 
 router.get('/owners', async (req, res) => {
-  const obj = { owners: await db.getOwners()}
-  console.log(obj)
+  const obj = { owners: await db.getOwners() }
+
   res.render('owners', obj)
 })
-
 
 router.get('/owners/:id', async (req, res) => {
   const id = req.params.id
