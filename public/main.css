@@ -1,0 +1,57 @@
+.navbar {
+  color: salmon;
+  background-color: navajowhite;
+  text-align: right;
+  padding: 15px;
+  font-family:  sans-serif;
+
+  
+  
+}
+.navbar ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color: aquamarine;
+  font-family: 'Bitter', sans-serif;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar a {
+  background-color:lemonchiffon;
+  color:lightsalmon
+  transition: color 0.3s ;
+}
+
+body {
+  background-color: lemonchiffon;
+  color: salmon;
+  margin: 15px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bitter', sans-serif;
+  min-height: 100vh;
+
+}
+
+
+
+footer {
+  background-color: navajowhite;
+  color: salmon;
+  padding: 10px;
+  margin-bottom: 5px;
+  bottom: 0;
+  position: relative;
+  font-family: 'Bitter', sans-serif;
+  
+
+}
