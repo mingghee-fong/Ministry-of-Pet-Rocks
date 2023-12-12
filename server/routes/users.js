@@ -31,10 +31,14 @@ router.get('/owners/:id', async (req, res) => {
 
   const rockOwner = obj.owner[0]
 
-
   const ownersRock = { rocks: await db.getOwnersRocks(rockId, id) }
+
+  const finalObj = {
+    ...rockOwner,
+    ...ownersRock,
+  }
   // console.log(ownersRock)
-  res.render('ownerid', rockOwner)
+  res.render('ownerid', finalObj)
 })
 
 export default router
