@@ -1,4 +1,4 @@
-# Boilerplate: Knex.js
+# Ministry of Pet Rocks
 
 ## Setup
 
