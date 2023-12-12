@@ -1,6 +1,8 @@
+<div class="homeDescription">
 <h1>Owner Registry List</h1>
-<ul>
+<ul id="ownerNameList">
   {{#each owners}}
-  <li><a href="/owners/{{this.id}}">{{this.name}}</a></li>
+  <li><button><a id="ownerName" href="/owners/{{this.id}}">{{this.name}}</a></button></li>
   {{/each}}
 </ul>
+</div>

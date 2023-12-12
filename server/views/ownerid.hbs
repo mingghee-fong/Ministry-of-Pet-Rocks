@@ -1,28 +1,29 @@
 
-<h1>Owner Details</h1>
-{{!-- <img src="https://media.gq.com/photos/590ca028f817d5612dbea34b/16:9/w_1280"  width="200" height="relative" /> --}}
-<ul>
-  {{!-- {{#each owner}} --}}
-  {{!-- <li><strong>Rock Image:</strong> {{this.img}}</li> --}}
+
+
+<div class="homeDescription">
+  <h1>Owner Details</h1>
+<ul id="ownerList">
+ 
   <li><strong>Owner ID:</strong> {{this.ownerId}}</li>
   <li><strong>Owner Name:</strong> {{this.ownerName}}</li>
-  <li><strong>Onwer Email:</strong> {{this.email}}</li>
+  <li><strong>Owner Email:</strong> {{this.email}}</li>
   <li><strong>Owner Address:</strong> {{this.address}}</li>
-  {{!-- {{/each}} --}}
+ 
 </ul>
+</div>
 
-
-<ul>
+<div class="homeDescription">
+  <h1>Pet Rock Details</h1>
+<ul id="rockList">
   {{#each rocks}}
-  {{!-- <li><strong>Rock Image:</strong> {{this.img}}</li> --}}
-  {{!-- <li><strong>Owner ID:</strong> {{this.}}</li> --}}
-  <img src="{{this.rockImg}}" alt="">
+<div>
+  <img class="rockImg" src="{{this.rockImg}}" alt="rock">
   <li><strong>Rock Name:</strong> {{this.rockName}}</li>
     <li><strong>Rock Age:</strong> {{this.rockAge}} Million Years</li>
       <li><strong>Rock Traits:</strong> {{this.rockTrait}}</li>
         <li><strong>Rock ID:</strong> {{this.rockId}}</li>
-        <br><br>
-  {{!-- <li><strong>Onwer Email:</strong> {{this.email}}</li> --}}
-  {{!-- <li><strong>Owner Address:</strong> {{this.address}}</li> --}}
+     </div>
   {{/each}}
 </ul>
+</div>
